@@ -1,0 +1,6 @@
+@rate_limiting_HostAddress = http://localhost:5122
+
+GET {{rate_limiting_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
